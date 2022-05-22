@@ -3,6 +3,6 @@ import { router } from "./routes/stocks-router.js";
 const app = new express();
 app.use(express.json());
 
-app.use("/stock", router);
+app.use("/stocks", router);
 
-app.listen(8080);
+app.listen(80);
